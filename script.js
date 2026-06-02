@@ -1,14 +1,5 @@
-function firstChar(text) {
-  // your code here
-	if (!text) return ""; 
-
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] !== " ") {
-      return text[i];
-    }
-  }
-
-  return ""; 
+function firstChar(str) {
+    return str.trim() ? str.trim()[0] : "";
 }
 
 // Do not change the code below
